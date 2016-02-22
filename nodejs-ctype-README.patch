@@ -1,0 +1,26 @@
+From 511d3e102a4c65b0cef33d0782446690c0d35081 Mon Sep 17 00:00:00 2001
+From: "T.C. Hollingsworth" <tchollingsworth@gmail.com>
+Date: Thu, 13 Jun 2013 19:55:18 -0700
+Subject: [PATCH] fix README to include instructions to read the man page from
+ the system paths
+
+---
+ README | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/README b/README
+index 4efd7ee..bd1e945 100644
+--- a/README
++++ b/README
+@@ -77,6 +77,6 @@ For more documentation, see the file README.old. Full documentation is in the
+ process of being rewritten as a series of manual pages which will be available
+ in the repository and online for viewing.
+ 
+-To read the ctio manual page simple run, from the root of the workspace:
++To read the ctio manual page simply run:
+ 
+-man -Mman -s 3ctype ctio
++man 3 ctio
+-- 
+1.8.2.1
+
