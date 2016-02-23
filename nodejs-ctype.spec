@@ -8,7 +8,7 @@
 
 Name:           %{?scl_prefix}nodejs-ctype
 Version:        0.5.3
-Release:        3.1%{?dist}
+Release:        4.1%{?dist}
 Summary:        Read and write binary structures and data types with Node.js
 BuildArch:      noarch
 ExclusiveArch: %{nodejs_arches} noarch
@@ -80,6 +80,9 @@ rm -rf %buildroot
 %doc CHANGELOG LICENSE README README.old
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.5.3-4.1
+- rebuilt
+
 * Wed Dec 11 2013 Tomas Hrcka <thrcka@redhat.com> - 0.5.3-3.1
 - enable scl support
 
